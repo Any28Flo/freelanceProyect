@@ -6,7 +6,7 @@
    -moz-box-sizing: border-box;
    box-sizing: border-box;
  }
- 
+
  *:before,
  *:after {
    -webkit-box-sizing: border-box;
@@ -25,7 +25,72 @@
  header{
    /*Hace que el menu este fijo*/
    position: fixed;
-   background: white;
+   background: #2c3e50;
    width: 100%;
+   height: 100px;
    top: 0;
+   color: white;
  }
+ .menu{
+   padding: 14px 10px;
+   overflow: auto;
+ }
+.contenedorheader{
+  top:25px;
+
+}
+.portada{
+  background-color: #18bc9c;
+  height: 600px;
+  text-align: center;
+  color: white;
+}
+.imgPortafolio{
+  height: 200px;
+  width: 200px;
+}
+.portafolio{
+  background-color: white;
+  height: 700px;
+}
+.about
+{
+  background-color: #18bc9c;
+  color: white;
+  height: 500px;
+}
+.title
+{
+  text-align: center;
+}
+.btn{
+  border:  1px solid white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+.contact{
+  height: 400px;
+  background-color: white;
+  text-align: center;
+}
+li{
+  list-style: none;
+}
+.footerSuperior{
+  height: 150px;
+  background-color: #384f66;
+
+}
+.footerInferior{
+  height: 50px;
+  text-align: center;
+  background-color: #2c3e50;
+}-
+.desplaza{
+  top: 250px;
+}
+
+#imgBienvenida{
+  padding-top: 100px;
+}

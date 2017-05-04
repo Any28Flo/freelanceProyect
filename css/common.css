@@ -74,14 +74,3 @@
   float: right;
 
 }
-header{
-  /*Hace que el menu este fijo*/
-  position: fixed;
-  background: #2c3e50;
-  width: 100%;
-  top: 0;
-}
-.menu{
-  padding: 14px 70px;
-  overflow: auto;
-}
