@@ -5,7 +5,8 @@
 	<title>Freelancer</title>
 	<!-- Enlaza aquí tu CSS común y de tu proyecto -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/common.css">
 </head>
 <body>
@@ -32,6 +33,7 @@
         <div class="col-12 desplaza" >
           <img id="imgBienvenida"src="assets/images/profile.png">
           <h1>START BOOTSTRAP</h1>
+					<img src="assets/images/estrellaBlanca.png">
           <p>Web Developer-Graphic Artist-User Experience Designer</p>
         </div>
       </div>
@@ -39,8 +41,12 @@
   </div>
   <div class="portafolio">
     <div class="contenedor">
-
-      <h2 class="title">PORTFOLIO</h2>
+			<h2 class="title">PORTFOLIO</h2>
+			<div class="row">
+				<div class="col-4"></div>
+				<div class="col-4 star"><img id=""src="assets/images/estrellaNegra.png"></div>
+				<div class="col-4 "></div>
+			</div>
       <div class="row">
         <div class="col-4"><img class="imgPortafolio" src="assets/images/portfolio/cabin.png"></div>
         <div class="col-4"><img class="imgPortafolio" src="assets/images/portfolio/cake.png"></div>
@@ -55,9 +61,18 @@
   </div>
   <div class="about">
     <div class="contenedor">
-      <div class="col-12">
-        <h2 class="title">ABOUT</h2>
-      </div>
+			<div class="row">
+				<div class="col-4">
+	        <h2 class="title">ABOUT</h2>
+	      </div>
+			</div>
+			<div class="row">
+				<div class="col-4"></div>
+				<div class="star"class="col-4">
+	        <img src="assets/images/estrellaNegra.png">
+	      </div>
+				<div class="col-4"></div>
+			</div>
 
     </div>
     <div class="row">
@@ -77,30 +92,38 @@
       </div>
       <div class="col-3">
       </div>
-
-    </div>
+		</div>
     <div class="row">
-      <div class="col-12">
+			<div class="col-4"></div>
+      <div class="col-4">
         <a class="btn">Download Theme</a>
       </div>
-
-    </div>
+			<div class="col-4"></div>
+		</div>
   </div>
   <div class="contact">
     <div class="contenedor">
       <div class="row">
         <h2>CONTACT ME</h2>
       </div>
+			<div class="row">
+				<img src="assets/images/estrellaNegra.png">
+			</div>
       <div class="row">
         <form>
-           <li><input type="text" placeholder="Name"></li>
-           <li><input type="email" placeholder="Email Address"></li>
-           <li><input type="tel" placeholder="Phone Number"></li>
-           <li><textarea placeholder="Message"></textarea></li>
+           <li><input class="social" type="text" placeholder="Name"></li>
+           <li><input class="social" type="email" placeholder="Email Address"></li>
+           <li><input class="social" type="tel" placeholder="Phone Number"></li>
+           <li><textarea id="texto" class="social"placeholder="Message"></textarea></li>
         </form>
       </div>
       <div class="row">
-        <button>Send</button>
+
+				<div class="col-6">
+					<button id="send">Send</button>
+				</div>
+
+				<div class="col-6"></div>
       </div>
     </div>
   </div>
@@ -112,17 +135,30 @@
             Location
           </div>
           <div class="col-4">
-            soy
+            AROUND THE WEB
           </div>
           <div class="col-4">
-            any
+            ABOUT FRIELANCE
           </div>
         </div>
         <div class="row">
           <div class="col-4">
-            3481 Melrose Place
+            3481 Melrose Place<br>
             Beverly Hils, CA90210
           </div>
+					<div class="col-4">
+						<a  class="imgFooter"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+						<a class="imgFooter"><i class="fa fa-google-plus fa-lg" aria-hidden="true"></i></a>
+						<a class="imgFooter"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+						<a class="imgFooter"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+						<a class="imgFooter"><i class="fa fa-dribbble fa-lg" aria-hidden="true"></i></a>
+					</div>
+					<div class="col-4">
+						Freelance is a free to use, open source<br>
+						Boostrap theme created by Start<br>
+						Boostrap
+
+					</div>
         </div>
       </div>
     </div>
@@ -130,13 +166,11 @@
       <div class="contenedor">
         <div class="row">
           <div class="col-12">
-            Copyrigth
+            Copyrigth © Your Website 2016
           </div>
         </div>
       </div>
     </div>
-
-
   </footer>
 
 
